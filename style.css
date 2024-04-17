@@ -10,6 +10,11 @@ body {
 header, footer {
   text-align: center;
 }
+
+nav a {
+  margin: 0 10px;
+}
+
 a:link, a:visited, a:active{
   color: #d62828;
 }
@@ -43,6 +48,9 @@ div {
   margin: auto;
   width: 600px;
 }
+div.about, ul {
+  text-align: left;
+}
 
 img {
   width: 100%;
@@ -52,6 +60,15 @@ img {
 
 hr {
   border: 1px solid black;
+}
+
+.group {
+  display: flex;
+}
+
+.item{
+  flex: 1;
+  margin: 10px;
 }
 
 /* Add your solution below */
